@@ -1,6 +1,6 @@
 {
     "name": "ng4-input-slider",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "private": false,
     "description": "Slider component for Angular 4+",
     "keywords": [
