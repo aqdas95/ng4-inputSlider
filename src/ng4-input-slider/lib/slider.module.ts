@@ -46,4 +46,4 @@ import { TooltipWrapperComponent } from './tooltip-wrapper.component';
     SliderComponent
   ]
 })
-export class Ng5SliderModule { }
+export class Ng4InputSliderModule { }

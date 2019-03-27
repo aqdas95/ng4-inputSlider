@@ -1,4 +1,4 @@
-# ng5-slider
+# ng4-input-slider
 [![npm version](https://badge.fury.io/js/ng5-slider.svg)](https://badge.fury.io/js/ng5-slider)
 [![Travis CI Build](https://travis-ci.org/angular-slider/ng5-slider.svg?branch=master)](https://travis-ci.org/angular-slider/ng5-slider)
 
@@ -28,18 +28,18 @@ Self-contained, mobile friendly slider component for Angular 5+ based on [angula
 
 ## Dependencies
 
- * Angular 5+
+ * Angular 4+
 
 ## Installation
 
 To add the slider to your Angular project:
 ```
-npm install --save ng5-slider
+npm install --save ng4-input-slider
 ```
 
 Once installed, add the slider to your `app.module.ts`:
 ```typescript
-import { Ng5SliderModule } from 'ng5-slider';
+import { Ng4InputSliderModule } from 'ng4-input-slider';
 
 ...
 
@@ -47,7 +47,7 @@ import { Ng5SliderModule } from 'ng5-slider';
    ...
    imports: [
      ...
-     Ng5SliderModule,
+     Ng4InputSliderModule,
     ...
    ],
    ...
@@ -59,7 +59,7 @@ export class AppModule {}
 
 Now you can use the slider component in your app components, for example in `app.component.ts`:
 ```typescript
-import { Options } from 'ng5-slider';
+import { Options } from 'ng4-input-slider';
 ...
 
 @Component({...})
